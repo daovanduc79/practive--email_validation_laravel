@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('check-email','EmailController@showForm');
+Route::post('check-email','EmailController@validationEmail');
